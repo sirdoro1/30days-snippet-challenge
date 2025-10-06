@@ -1,10 +1,10 @@
 // src/pages/index.tsx
 
 export default function Home(){
-  // Day 3 of 30 Days Code Snippet
+  // Day 4 of 30 Days Code Snippet
   return <div>
-      <h1 style={{marginTop: '20px', textAlign:'center'}}>
-        Welcome to our Home Page
+      <h1 className={`text-3xl font-bold text-center`}>
+        Home Page
       </h1>
       <p style={{marginTop: '20px'}}>
         Home Page - Routing and Navigation in Next.js

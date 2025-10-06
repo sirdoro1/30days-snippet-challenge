@@ -1,9 +1,9 @@
 // src/pages/about/index.tsx
 
 export default function About(){
-    // Day 3 of 30 Days Code Snippet Challenge
+    // Day 4 of 30 Days Code Snippet Challenge
     return <div>
-        <h1 style={{marginTop: '20px', textAlign:'center'}}>
+        <h1 className={`text-center text-3xl font-bold margin-top-20`}>
             About Page
         </h1>
         <p style={{marginTop: '20px'}}>
