@@ -1,3 +1,13 @@
+/*
+    src/styles/globals.css
+*/ 
+
+@import "tailwindcss";
+
+/*
+    Day 4 of 30 Days Code Snippet
+*/
+ 
 :root {
   --background: #ffffff;
   --foreground: #171717;

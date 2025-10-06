@@ -1,23 +1,13 @@
-// src/pages/contact/index.tsx
-
-import Link from 'next/link'
+// src/pages/about/index.tsx
 
 export default function About(){
-    // Day 2 of 30 Days Code Snippet Challenge
+    // Day 4 of 30 Days Code Snippet Challenge
     return <div>
-        <h1 style={{marginTop: '20px', textAlign:'center'}}>
+        <h1 className={`text-center text-3xl font-bold margin-top-20`}>
             About Page
         </h1>
         <p style={{marginTop: '20px'}}>
             About Page - Routing and Navigation in Next.js
         </p>
-        <div style={{marginTop:'10px'}}>
-            <Link href={'/'} style={{marginTop: '5px'}}> 
-                Home  Page
-            </Link>
-            <Link href={'/contact'}> 
-                Contact Page
-            </Link>
-        </div>
     </div>
 }
