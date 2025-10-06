@@ -2,21 +2,21 @@
 
 import Link from 'next/link'
 
-export default function About(){
+export default function Contact(){
     // Day 2 of 30 Days Code Snippet Challenge
     return <div>
         <h1 style={{marginTop: '20px', textAlign:'center'}}>
-            About Page
+            Contact Page
         </h1>
         <p style={{marginTop: '20px'}}>
-            About Page - Routing and Navigation in Next.js
+            Contact Page - Routing and Navigation in Next.js
         </p>
         <div style={{marginTop:'10px'}}>
-            <Link href={'/'} style={{marginTop: '5px'}}> 
-                Home  Page
+            <Link href={'/'} style={{margin:'10px'}}> 
+                Home Page
             </Link>
-            <Link href={'/contact'}> 
-                Contact Page
+            <Link href={'/about'}> 
+                About Page
             </Link>
         </div>
     </div>
